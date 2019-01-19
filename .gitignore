@@ -17,4 +17,14 @@ hs_err_pid*
 
 \.settings/
 
-\target
+rookit-auto-api/target/
+
+rookit-auto-lib/target/
+
+rookit-auto-test/target/
+
+rookit-config-api/target/
+
+rookit-config-json/target/
+
+rookit-config-lib/target/
