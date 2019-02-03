@@ -21,7 +21,6 @@
  ******************************************************************************/
 package org.rookit.config;
 
-import com.google.common.io.Closer;
 import com.google.inject.AbstractModule;
 import com.google.inject.Module;
 import com.google.inject.Provides;
@@ -29,10 +28,8 @@ import com.google.inject.Singleton;
 import com.google.inject.util.Modules;
 import org.rookit.config.guice.Config;
 import org.rookit.config.json.JsonConfigurationModule;
-import org.rookit.io.path.BasePathManagerProvider;
 import org.rookit.io.path.ImmutablePathConfig;
 import org.rookit.io.path.PathConfig;
-import org.rookit.io.path.PathManager;
 
 import java.nio.file.Paths;
 
@@ -52,14 +49,6 @@ public final class ConfigurationModule extends AbstractModule {
     @Override
     protected void configure() {
         bind(ConfigurationFactory.class).to(BaseConfigurationFactory.class).in(Singleton.class);
-    }
-
-    @Provides
-    @Singleton
-    @Config
-    PathManager pathManager(final Closer closer,
-                            @Config final PathConfig config) {
-        return BasePathManagerProvider.create(closer, config);
     }
 
     @Provides

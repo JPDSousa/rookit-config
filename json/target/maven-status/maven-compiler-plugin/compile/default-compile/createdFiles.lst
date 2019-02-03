@@ -1,0 +1,3 @@
+org\rookit\config\json\JsonConfigurationModule.class
+org\rookit\config\json\JsonConfiguration.class
+org\rookit\config\json\JsonConfigurationFactory.class
