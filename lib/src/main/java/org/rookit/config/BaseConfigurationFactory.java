@@ -33,7 +33,7 @@ import java.net.URI;
 import java.util.Collection;
 import java.util.Set;
 
-import static org.slf4j.LoggerFactory.*;
+import static org.slf4j.LoggerFactory.getLogger;
 
 final class BaseConfigurationFactory implements ConfigurationFactory {
 

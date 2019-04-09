@@ -57,7 +57,7 @@ public final class ConfigurationModule extends AbstractModule {
     PathConfig pathConfig() {
         return ImmutablePathConfig.builder()
                 .failIfAbsent(true)
-                .temporaryDirectory(Paths.get(""))
+                .temporaryDirectory(Paths.get("tmp"))
                 .build();
     }
 }
