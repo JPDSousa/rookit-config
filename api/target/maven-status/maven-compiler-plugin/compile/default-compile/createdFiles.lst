@@ -1,5 +1,0 @@
-org\rookit\config\ConfigurationFactory.class
-org\rookit\config\exception\UnsupportedConfigurationException.class
-org\rookit\config\Configuration.class
-org\rookit\config\exception\NoSuchConfigException.class
-org\rookit\config\guice\Config.class

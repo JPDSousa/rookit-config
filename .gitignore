@@ -28,3 +28,9 @@ rookit-config-api/target/
 rookit-config-json/target/
 
 rookit-config-lib/target/
+
+api/target/
+
+lib/target/
+
+json/target/
