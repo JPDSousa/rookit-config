@@ -23,11 +23,11 @@ rookit-auto-lib/target/
 
 rookit-auto-test/target/
 
-rookit-config-api/target/
+rookit-delegate-api/target/
 
-rookit-config-json/target/
+rookit-delegate-json/target/
 
-rookit-config-lib/target/
+rookit-delegate-lib/target/
 
 api/target/
 

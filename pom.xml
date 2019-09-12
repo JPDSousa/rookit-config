@@ -20,8 +20,17 @@
 
     <modules>
         <module>api</module>
-        <module>json</module>
-        <module>lib</module>
     </modules>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>${rookit.group}.rookit-config</groupId>
+                <artifactId>api</artifactId>
+                <version>${rookit.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

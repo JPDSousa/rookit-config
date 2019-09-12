@@ -1,1 +1,1 @@
-rookit-config
+rookit-delegate
